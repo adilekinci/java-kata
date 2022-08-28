@@ -3,7 +3,7 @@ package com.training.leetcode.easy;
 public class PolindromNumber {
     public boolean isPalindrome(int x) {
         int tmp = x;
-        if (x <= 0)
+        if (x < 0)
             return false;
 
         int reversenumber = 0;
